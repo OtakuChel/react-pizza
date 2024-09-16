@@ -397,3 +397,25 @@ body {
     }
   }
 }
+
+.full-pizza-back-btn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 20px;
+  border-width: 1.5px;
+  border-color: darken($color: $gray-line, $amount: 90);
+
+  p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  &:hover {
+    // #fe5f1e;
+    background-color: darken($color: $gray-line, $amount: 90);
+    border-color: darken($color: $gray-line, $amount: 90);
+    p {
+      color: #fff;
+    }
+  }
+}
